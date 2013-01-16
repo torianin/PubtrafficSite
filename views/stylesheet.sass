@@ -1,0 +1,138 @@
+$black: #000000
+$grey: #001A00
+$dark_green: #004700
+$green: #d3d3d3
+$light_green: #00C400
+$background_grey: #9ea0a3
+
+body
+  background: transparent url(/images/background_image.png) repeat 0 0
+
+#navigation
+  position: fixed
+  top: 0
+  width: 100%
+  color: #ffffff
+  height: 20px
+  text-align: center
+  padding-top: 10px
+  padding-bottom: 10px
+  background-color: rgba(0.81, 0.05, 1, 0.50)
+  z-index: 2
+
+  a
+    font-size: 14px
+    padding-left: 15px
+    padding-right: 15px
+    color: white
+    text-decoration: none
+    &:hover
+      color: grey
+
+#nav
+  padding-top: 55px
+  color: $light_green
+  font-size: 15px
+  border-bottom-width: 1px
+  border-bottom-style: solid
+  border-color: $green
+
+#nav ol 
+  list-style-type: none
+
+
+#nav img 
+  float: left
+
+#nav li
+  padding-top: 5px
+  padding-left: 25px
+  display: inline-block
+  text-align: center
+  
+#sidebar
+  position: absolute
+  right: 0
+  width: 100px
+  padding-top: 50px
+  text-align: center
+  float: right
+  font-size: 14px
+  height: 720px
+  overflow: hidden
+
+#last
+  padding-top: 10px
+
+#sidebar hr  
+  border-top-width: 1px
+  border-top-style: solid
+  border-color: $green
+  margin: 10px
+
+#map
+  color: $light_green
+  font-size: 20px
+  border-bottom-width: 1px
+  border-bottom-style: solid
+  border-color: $green
+  padding-bottom: 20px
+
+#map_canvas 
+  float: left
+
+#map button
+  float: right
+  clear: right
+
+#map ol li 
+  float: right
+
+#pubs
+  color: $light_green
+  font-size: 20px
+  border-bottom-width: 1px
+  border-bottom-style: solid
+  border-color: $green
+
+
+.pubs
+  background-color: rgba(1, 1, 1, 0.05)
+  border-width: 1px
+  border-style: solid
+  border-color: $green
+  img
+    float: right
+    clear: right
+  a
+    float: left
+    clear: left
+  h1
+    color: #000000
+    float: left
+    clear: left
+  h2
+    float: left
+    clear: left
+    font-size: 15px 
+
+
+#footer
+  position: fixed
+  bottom: 0
+  width: 100%
+  color: #ffffff
+  height: 20px
+  text-align: center
+  padding-top: 10px
+  padding-bottom: 10px
+  background-color: rgba(0.81, 0.05, 1, 0.50)
+
+  a
+    font-size: 14px
+    padding-left: 15px
+    padding-right: 15px
+    color: white
+    text-decoration: none
+    &:hover
+      color: grey
